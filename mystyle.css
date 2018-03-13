@@ -1,0 +1,53 @@
+.fa{   /*Twitter Button*/
+	color: white;
+	padding: 6px;
+	border-radius: 10%;
+	float: right;			
+}
+
+.quoteButton{/*New Quote Button*/
+	color:  white;
+	font-style: normal;
+	padding: 7px;
+	font-size: 17px;
+}
+
+.quote{		/*QuoteText*/
+	font-size: 30px;
+	font-style: italic;
+}
+
+.pic{		/*Picture*/
+	margin: auto;
+	
+}
+
+.setText{  /*Header amd top paragraph*/
+	color: white;
+}
+
+.foot{		/*footer*/
+    color: white;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left:10px;
+
+
+
+}
+.intro{
+	font-size: 20px;
+}
+
+@media screen and (max-width: 450px) {
+	.quote{		/*QuoteText*/
+	font-size: 20px;
+	font-style: italic;
+	}
+
+	.intro{
+	font-size: 15px;
+	}
+
+}
